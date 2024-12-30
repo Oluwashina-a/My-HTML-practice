@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>youtube</title>
+</head>
+<body>
+  <style>
+  .subscribe-button {
+    background-color:red;
+    color:white;
+    border:none;
+    border-radius:2px;
+    cursor: pointer;
+    margin-right:8px;
+       padding-top:10px;
+    padding-bottom:10px;
+    padding-left:16px;
+    padding-right:16px;
+vertical-align:top;
+    transition:opacity 0.15s;
+       
+  }
+  .subscribe-button:hover{
+    opacity:0.8
+  }
+  .subscribe-button:active{
+    opacity:0.4;
+  }
+  .join-button{
+    background-color:white;
+    border-color: Cyan;
+    border-style:solid;
+    border-style:1px;
+    color:cyan;
+    border-radius:2px;
+    cursor:pointer;  
+       padding-top:10px;
+    padding-bottom:10px;
+    padding-left:16px;
+    padding-right:16px;
+vertical-align:top;
+    transition:background-color 0.15s,
+    color 0.15s;
+    
+  }
+  .join-button:hover{
+    background-color:cyan;
+    color:white;
+  }
+  .join-button:active{
+    opacity:0.3;
+  }
+  .tweet-button{
+    background-color: cyan;
+    color:white;
+    border:none;
+    border-radius:18px;
+    font-weight:bold;
+    font-size:15px;
+    cursor:pointer;
+    margin-left:8px; 
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:16px;
+    padding-right:16px;
+transition:box-shadow 0.15s  ;
+vertical-align:top;   
+  }
+  .tweet-button:hover{
+    box-shadow:5px,5px,10px, black
+  }
+  </style>  
+  <button class =" subscribe-button">SUBSCRIBE
+  </button>
+   <button class="join-button" > JOIN</button>
+  <button class="tweet-button" >TWEET</button>
+</body>
+</html>
